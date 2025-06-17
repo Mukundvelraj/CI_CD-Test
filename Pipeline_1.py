@@ -10,3 +10,4 @@ def test_launch():
     driver.get(url)
     driver.maximize_window()
     assert driver.title == "GitHub"
+    driver.save_screenshot("step1_login.png")
